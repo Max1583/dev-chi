@@ -71,12 +71,7 @@ margin: 15px;
 #blue_logo{
 display: none;  
 }
-#dark_icon,#light_icon{
-    color: #7506cf;
-    font-size: 20px;
-    margin: 5px;
-    margin-top: 10px;
-}
+
 .main_img{
     width: 100%;
 }
@@ -109,6 +104,12 @@ footer{
  float: right; 
  
 }
+.fa-adjust1{
+    font-size: 25px;
+    color: #7506cf;
+    margin:10px 20px;
+    float: right; 
+}
 .fa-github:hover{
     text-shadow: 
     0px 0px 6px #09FDF4, 0px 0px 12px #09FDF4, 0px 0px 24px #09FDF4;
@@ -125,9 +126,7 @@ footer{
     0px 0px 6px #09FDF4, 0px 0px 12px #09FDF4, 0px 0px 24px #09FDF4
     ;
 }
-.toogler_mobile{
-    display: none;
-}
+
 
 main section{
     display:flex;
@@ -298,7 +297,7 @@ font-size:20px;
 /* styling teaser in the footer */
 
 .teaser{
-    font-size: 15px;
+    font-size: 20px;
 text-align: center;
 color: #1100ff;
 }
@@ -353,19 +352,8 @@ flex-direction: column;
         padding: 3px;
 
     }
-    .toogler{
-        display:block;
-    }
-      .toogler{
-        position: absolute;
-       margin-right: 95vw;
-       margin-top: 93vh;
-    }
-    #dark_icon,#light_icon{
-        font-size: 20px;
-        margin: 5px;
-        
-    }
+
+
     .fa-github,.fa-twitter,.fa-envelope{
         font-size: 20px;
   
@@ -380,7 +368,11 @@ flex-direction: column;
     main section {
         bottom: 20vh;
     }
- 
+    .teaser{
+        font-size: 15px;
+    text-align: center;
+    color: #1100ff;
+    }
     
 }
 
@@ -389,12 +381,6 @@ flex-direction: column;
 @media screen and (max-width:491px){
  
   
-    #dark_icon,#light_icon{
-
-        font-size: 20px ;
-        margin: 5px;
-        right: 0; 
-    }
     
     #blue_logo ,#purple_logo{
         width: 80px;
@@ -414,7 +400,9 @@ flex-direction: column;
                     }
         
      
-     
+                    .fa-adjust1{
+                        font-size: 20px;
+                    }
 }
 @media screen and (max-width:370px){
     #blue_logo ,#purple_logo{
